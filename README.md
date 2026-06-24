@@ -71,46 +71,25 @@ The solution is built around a dedicated monitoring architecture designed for ne
 
 # 📁 Repository Structure
 
-📦 Sentinel-Network-IDS
-│
-├── 📄 README.md
-├── 📜 LICENSE
-├── 🚫 .gitignore
-│
-├── 📚 docs/
-│ ├── 📑 IDS\_Project\_Report.pdf
-│ ├── 📘 Deployment\_Guide.md
-│ └── 📗 Network\_Architecture.md
-│
-├── 🖼️ screenshots/
-│ ├── 🏗️ system-architecture.png
-│ ├── ⚙️ snort-installation.png
-│ ├── 🔍 nmap-detection.png
-│ ├── 📡 icmp-alert.png
-│ ├── 💉 sql-injection-alert.png
-│ └── 📊 detection-results.png
-│
-├── 🛡️ rules/
-│ ├── 📄 local.rules
-│ ├── 🔎 nmap.rules
-│ ├── 🔐 ssh.rules
-│ └── 💉 sql.rules
-│
-├── ⚙️ config/
-│ ├── 🧾 snort.conf
-│ ├── 📊 threshold.conf
-│ └── 📎 classification.config
-│
-├── 📊 logs/
-│ ├── 🚨 alert.fast
-│ ├── 📜 alert.full
-│ └── 📈 detection.log
-│
-└── 🎯 attack-simulation/
- ├── 🔍 nmap\_scan.txt
- ├── 📡 ping\_test.txt
- ├── 💉 sql\_injection.txt
- └── 🔐 hydra\_attack.txt
+- 📄 README.md
+- 📜 LICENSE
+
+### 📚 docs
+- IDS_Project_Report.pdf
+- Deployment_Guide.md
+- Network_Architecture.md
+
+### 🖼️ screenshots
+- system-architecture.png
+- nmap-detection.png
+- icmp-alert.png
+- sql-injection-alert.png
+
+### 🛡️ rules
+- local.rules
+- nmap.rules
+- ssh.rules
+- sql.rules
 
 # 🛡️ Security Capabilities
 
