@@ -13,6 +13,10 @@
 
 SENTINEL is a Network Intrusion Detection System (NIDS) built using Snort to monitor, inspect, and detect malicious activities within a virtualized network environment.
 
+# 🏗️ System Architecture
+
+![System Archietecture](https://github.com/Mahendar-Dev/Sentinel-Network-IDS/blob/ded7416502c76afdc782bcab0d282e49a578ae3b/screenshots/system-architecture.png)
+
 ## 🌍 The Real-World Problem
 
 Organizations face continuous cyber threats such as network scanning, unauthorized access attempts, and web application attacks. Without proper monitoring, these activities often go unnoticed until significant damage has already occurred.
@@ -64,10 +68,6 @@ The solution is built around a dedicated monitoring architecture designed for ne
 * Alert Logs
 * Event Analysis
 * Threat Detection Reports
-
-# 🏗️ System Architecture
-
-![System Architecture](screenshots/system-architecture.png)
 
 # 📁 Repository Structure
 
